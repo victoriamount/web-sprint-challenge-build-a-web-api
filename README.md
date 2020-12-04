@@ -71,11 +71,11 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 ### Task 1: Project Set Up
 
-- [ ] Create a forked copy of this project.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch.
-- [ ] Commit & push your code regularly and meaningfully.
+- [X] Create a forked copy of this project.
+- [X] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [X] Create a new branch: `git checkout -b <firstName-lastName>`.
+- [X] Implement the project on your newly created `<firstName-lastName>` branch.
+- [X] Commit & push your code regularly and meaningfully.
 
 ### Task 2: Project Requirements
 
@@ -95,15 +95,15 @@ A _"test"_ script already exists you can use to run tests against your code.
   - `[GET] /api/actions` sends an array of actions (or an empty array) as the body of the _response_.
   - `[GET] /api/actions/:id` sends an action with the given `id` as the body of the _response_.
   - `[POST] /api/actions` sends the newly created action as the body of the _response_.
-  - `[PUT] /api/actions` sends the updated action as the body of the _response_.
-  - `[DELETE] /api/actions` sends no _response_ body.
+  - `[PUT] /api/actions/:id` sends the updated action as the body of the _response_.
+  - `[DELETE] /api/actions/:id` sends no _response_ body.
 
 - [ ] Inside `api/projects/projects-router.js` build endpoints for performing CRUD operations on _projects_:
   - `[GET] /api/projects` sends an array of projects (or an empty array) as the body of the response.
   - `[GET] /api/projects/:id` sends a project with the given `id` as the body of the _response_.
   - `[POST] /api/projects` sends the newly created project as the body of the _response_.
-  - `[PUT] /api/projects` sends the updated project as the body of the _response_.
-  - `[DELETE] /api/projects` sends no _response_ body.
+  - `[PUT] /api/projects/:id` sends the updated project as the body of the _response_.
+  - `[DELETE] /api/projects/:id` sends no _response_ body.
 
 - [ ] Inside `api/projects/projects-router.js` add an endpoint for retrieving the list of actions for a project:
   - `[GET] /api/projects/:id/actions` sends an array of actions (or an empty array) as the body of the response.
