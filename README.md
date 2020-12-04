@@ -85,9 +85,9 @@ Your finished project must include all of the following requirements:
 
 A _"test"_ script already exists you can use to run tests against your code.
 
-- [ ] Write an _npm script_ named _"start"_ that uses `node` to run the API server.
-- [ ] Write an _npm script_ named _"server"_ that uses `nodemon`to run the API server.
-- [ ] Use _nodemon_ as a development time dependency only that is not deployed to production.
+- [X] Write an _npm script_ named _"start"_ that uses `node` to run the API server.
+- [X] Write an _npm script_ named _"server"_ that uses `nodemon`to run the API server.
+- [X] Use _nodemon_ as a development time dependency only that is not deployed to production.
 
 #### Build an API
 
